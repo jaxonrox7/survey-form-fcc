@@ -1,0 +1,25 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+legend {
+    text-transform: capitalize; 
+}
+option{
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: rgb(35, 5, 172);
+}
+p{
+    color: #3aac05;
+    font-weight: bold;
+    text-align: center;
+}
+#survey-form{
+    background-color: rgb(35, 5, 172);
+    color: white;
+    border: 10px;
+}

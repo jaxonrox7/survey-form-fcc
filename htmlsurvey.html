@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="csssurvey.css" media="screen"/>
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This is a survey to test my HTML/CSS skills.</p>
+        <form id="survey-form">
+            <fieldset>
+                <legend id="name-label">Please Enter your name</legend>
+                <input id='name' placeholder="John Smith" required>
+                <legend id="email-label">Please Enter your Email</legend>
+                <input id="email" type="email" placeholder="email@email.com" required>
+                <legend id="number-label">please enter a number between 0 and 12</legend>
+                <input type="number" min='0' max='12' placeholder="#" id="number">
+                <legend>Select the one that fits you best</legend>
+                <select id="dropdown">
+                    <option value="disabled" disabled>Select the one that fits you best</option>
+                    <option value="funny">funny</option>
+                    <option value="not funny">not funny</option>
+                </select>
+                <legend>choose an option</legend>
+
+                <input type="radio" value="chicken" name="choose">
+                <label value="chicken" for="chicken">Chicken</label>
+                <input value="beef" type="radio" name="choose">
+                <label value="beef" for="Beef">Beef</label>
+                <legend>Choose as may as you want</legend>
+                <input type="checkbox" value="Pizza">
+                <label>Pizza</label>
+               <br> <input type="checkbox" value="Hamburger">
+                <label>Hamburger</label>
+               <br> <textarea placeholder="comments..." name="comment" id="textarea" cols="30" rows="10"></textarea>
+
+
+
+            </fieldset>
+            <button id="submit" type="submit" form="survey form" value="submit">Submit</button>
+        </form>
+    </body>
+</html>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="csssurvey.css" media="screen" />
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is a survey to test my HTML/CSS skills.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Please Enter your name</label>
+      <input id='name' placeholder="John Smith" required>
+      <label id="email-label">Please Enter your Email</label>
+      <input id="email" type="email" placeholder="email@email.com" required>
+      <label id="number-label">please enter a number between 0 and 12</label>
+      <input type="number" min='0' max='12' placeholder="#" id="number">
+      <legend>Select the one that fits you best</legend>
+      <select id="dropdown">
+        <option value="disabled" disabled>Select the one that fits you best</option>
+        <option value="funny">funny</option>
+        <option value="not funny">not funny</option>
+      </select>
+      <legend>choose an option</legend> <input type="radio" value="chicken" name="choose">
+      <label value="chicken" for="chicken">Chicken</label>
+      <input value="beef" type="radio" name="choose">
+      <label value="beef" for="Beef">Beef</label>
+      <legend>Choose as may as you want</legend>
+      <input type="checkbox" value="Pizza">
+      <label>Pizza</label>
+      <br> <input type="checkbox" value="Hamburger">
+      <label>Hamburger</label>
+      <br> <textarea placeholder="comments..." name="comment" id="textarea" cols="30" rows="10"></textarea>
+
+    </fieldset>
+    <button id="submit" type="submit" form="survey form" value="submit">Submit</button>
+  </form>
+</body>
+
+</html> -->
